@@ -18,10 +18,8 @@ public class FileReaderService implements UserService {
     private List<User> usersList = new ArrayList<>();
     private int lastId = Integer.MIN_VALUE;
     private final List<Integer> idsDelete = new ArrayList<>();
-
     @Autowired
     private Scanner scanner;
-
     @Autowired
     private UI userInterface;
 
